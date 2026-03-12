@@ -1,10 +1,10 @@
 cat > README.md << 'EOF'
-# Proxy V2Ray pour VPS 5.144.179.51
+# Proxy V2Ray pour VPS 204.48.24.130
 
 Proxy Nginx déployé sur Google Cloud Run pour rediriger le trafic vers le VPS principal.
 
 ## Configuration
-- **VPS cible** : 5.144.179.51:443
+- **VPS cible** : 204.48.24.130:443
 - **Port d'écoute** : 8080
 - **Région Cloud Run** : us-central1 (Iowa, USA)
 - **Type de proxy** : TCP Stream (layer 4)
